@@ -1,0 +1,118 @@
+<html>
+<head>
+	<title>VIII SCT</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'> 
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,700' rel='stylesheet' type='text/css'>   
+    <link href="css/bootstrap.min.css" rel="stylesheet" text="css/text">		
+    <link href="css/index.css" rel="stylesheet" text="css/text">  
+    <script src="js/jQuery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery(".nav a, .navbar-header a").click(function(event) {
+            // check if window is small enough so dropdown is created
+            jQuery(".navbar-collapse").removeClass("in").addClass("collapse");
+        });
+    });
+    </script>
+    <link rel="icon" href="/ic.ico">
+
+</head>
+<body>
+	<div class="conteiner">
+		<nav class="navbar navbar-default navbar-fixed-top">
+           <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" /></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">      				
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#section-1">Início</a></li>
+                <li><a href="#section-2">Sobre</a></li>                
+                <li><a href="#section-3">Organização</a></li>                
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>        
+<section id="section-1">         
+<br><br><br>               
+    <img src="images/logo.png" alt="" class="logo"><br><br><br><br>
+    <a href="#section-2" class="btn btn-red">Saiba mais</a>
+</section>
+
+<section id="section-2">
+    <br><br><br><br>
+    <p class="title">SOBRE O EVENTO</p>
+    <h2>Luz, Ciência e Ação</h2>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat culpa itaque, atque, fugit earum iusto! Quibusdam nisi, hic porro ratione soluta at, unde suscipit eos! Fugiat dolorem at eos suscipit.</div><br>
+            <div>Porro, reprehenderit! Totam atque ad quisquam qui eaque, molestias dolores porro facere a incidunt suscipit laboriosam eos praesentium, blanditiis omnis dolorem. Quaerat ipsa necessitatibus saepe repudiandae, ad asperiores natus eius.</div>            
+        </div>
+        <div class="col-md-6">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat culpa itaque, atque, fugit earum iusto! Quibusdam nisi, hic porro ratione soluta at, unde suscipit eos! Fugiat dolorem at eos suscipit.</div><br>
+            <div>Porro, reprehenderit! Totam atque ad quisquam qui eaque, molestias dolores porro facere a incidunt suscipit laboriosam eos praesentium, blanditiis omnis dolorem. Quaerat ipsa necessitatibus saepe repudiandae, ad asperiores natus eius.</div>            
+        </div>
+    </div>
+</section>
+
+<section id="section-3">     
+<br><br><br><br>       
+    <p class="title">ORGANIZAÇÃO</p>
+    <h2>Estamos preparando o melhor evento pra você</h2>
+    <br><br><br><br>
+    <div class="row">
+        <img src="images/recursive-blue.png" alt="" class="col-md-4">    
+        <img src="images/ifpb-logo.png" alt="" class="col-md-4">    
+        <img src="images/recursive-blue.png" alt="" class="col-md-4">    
+    </div>
+    
+</section>
+
+<section id="section-4">            
+</section>
+
+<section id="section-5">            
+</section>
+
+<section id="section-6">            
+</section>		
+
+<section id="section-7">             
+</section>
+
+<footer>            
+    <h4>Desenvolvido por:</h4>
+    <a href="http://www.recursive.com.br">
+        <img src="images/logo-recursive.png" />
+    </a>                                
+</footer>
+</div>	
+<script type="text/javascript">
+$('a[href^="#"]').bind('click.smoothscroll', function (e) {
+    e.preventDefault();
+    var target = this.hash,
+    $target = $(target);
+    $('html, body').stop().animate({
+        'scrollTop': $target.offset().top
+    }, 1000, 'swing', function () {
+        window.location.hash = target;
+    });
+});
+
+
+</script>
+
+</body>
+</html>

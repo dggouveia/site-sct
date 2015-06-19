@@ -1,0 +1,415 @@
+body{	
+	font-family: roboto;
+    font-size:19px;
+}
+
+/* Nav begin */
+
+.red{
+    color:red;
+}
+
+.navbar-default{
+	background-color: white !important;	
+    box-shadow:0px 0px 5px grey;
+}
+
+.navbar-brand img{
+    width:150px;
+    position:relative;
+    bottom:12px;
+}
+
+.navbar-nav a{
+	color: #107849 !important;		
+}
+
+.navbar-nav a:hover{
+	color: #ED3237 !important;	
+	transition-duration: 0.5s;		
+}
+
+/*Classes*/
+
+.btn{
+    border:1px solid white;
+    padding:20px 60px;    
+    font-size: 20px;
+}
+
+.btn-red:hover{    
+    background-color: #7EBA00;
+    box-shadow: 0px 0px 10px black;
+    transition-duration:1s;
+}
+
+.title{
+    color:grey;    
+    font-size: 15px
+}
+
+
+#section-1{
+    min-height:100%;
+	background: url("../images/background-section-1.jpg") fixed no-repeat center;     
+	background-size: 100% ;
+	text-align: center;		
+    background-color:#1F6012;    
+}
+
+#section-1 .logo{
+    width: 80%;
+}
+    
+#section-1 > *{
+	color:white;			
+}
+
+#section-1 h1{
+	font-weight: bold;
+	font-size: 200px;
+	text-shadow: 0px 0px 10px black;	
+	font-family: ubuntu;
+}
+
+#section-1 h3{
+    font-weight: bold;
+    color:white;
+    text-shadow: 0px 0px 10px black;	
+}
+
+#section-1 h2{
+	color:red;
+}
+
+/* Sobre begin */
+
+#section-2{
+    position:relative;	
+    margin:0 auto;
+	background-color: white;
+    text-align:center;
+    min-height: 100%;
+    padding-bottom:40px;
+}
+
+#section-2 h1{    
+    text-align:center;
+    padding:10px;
+    width:250px;
+    margin:0 auto;
+    border-bottom:1px solid black;
+}
+
+#section-2 .row{
+    width:70%;
+    margin:0 auto;
+    text-align: justify !important;
+}
+
+#section-3{
+    min-height:100%;        
+    text-align: center;
+    background-color:#F5F5F5;
+    padding-bottom:100px;
+    background-size: 100%;
+}
+
+#section-3 .row{
+    width:80% !important;
+    margin:0 auto;   
+}
+
+#section-3 img{
+    padding:30px;
+    max-width: 70% !important;
+}
+
+#programacaogeral h1{
+    text-align:center;
+    padding:10px;
+    width:330px;
+    margin:0 auto;
+    border-bottom:1px solid white;
+    margin-bottom: 60px;
+}
+
+#programacaogeral a{
+    border:1px solid white;
+    padding:20px;
+    border-radius: 5px;
+    color:white;
+}
+
+#programacaogeral a:hover, #programacaogeral a:focus{
+    text-decoration: none;
+    background-color:rgba(255,255,255,0.5);
+    color:#F58634;
+    transition-duration:0.5s;
+}
+
+ /*Homenageado begin */
+
+#homenageado{
+    position:relative;		
+    min-height:620px;
+	background: url("../images/background-homenageado.png") fixed no-repeat center;    
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: right;	
+    text-align:center;
+    background-color:#E3E3E3;    
+}
+
+#homenageado h1{
+    text-align:center;
+    padding:10px;
+    width:250px;
+    margin:0 auto;
+    border-bottom:1px solid black;
+}
+
+#homenageado img{    
+    margin:30px 0px;
+    text-align:center;        
+}
+
+#homenageado .content{
+    width:70%;
+    margin:0 auto;
+    text-align:justify;
+}
+
+/*Organizadores begin*/
+
+#organizadores{    
+    min-height:700px;
+    text-align:center;
+}
+
+#organizadores h1{
+    width:250px;
+    border-bottom:1px solid black;
+    padding:10px;
+    margin: 0 auto;
+}
+
+#organizadores .content{
+    width:70%;
+    margin:0 auto;
+}
+
+#organizadores .content > *{
+    margin:30px 0px;
+}
+
+#organizadores .content img{
+    width:150px;
+    height:150px;
+    border-radius:100%;
+}
+
+#organizadores .comissao h3{
+    margin-bottom:30px;
+}
+
+#organizadores .comissao{
+    border-top:1px solid #E9EAED;
+}
+
+/*Contato begin*/
+#contato{   
+    min-height:650px;    
+    padding:40px;
+    background: url("../images/background-contato.jpg") fixed no-repeat center;
+    background-size:100%;
+    background-color:#D7F9FF;    
+}
+
+#contato h1{
+    width:250px;
+    border-bottom:1px solid black;
+    padding:10px;
+    margin: 0 auto;
+}
+
+#contato .content{
+    width:70%;
+    margin:0 auto;
+    border-radius:5px;
+    text-align:center;
+    background-color:white;    
+    position:relative;
+    top:10%;
+    box-shadow:0px 0px 10px black;
+    padding:40px;
+}
+
+#contato .endereco{
+    border-left:1px solid #E9EAED;
+}
+
+#contato .endereco iframe{    
+    width:100%;
+}
+
+#contato img{
+    width:20px;
+}
+
+/*Patrocinadores begin*/
+
+#patrocinadores{
+    text-align:center;    
+    padding:40px 0px;    
+}
+
+#patrocinadores h1{
+    width:250px;
+    border-bottom:1px solid black;
+    padding:10px 0px;
+    margin: 0 auto;
+}
+
+#patrocinadores .dividida{
+    border-right:1px solid #E9EAED;
+}
+
+#patrocinadores .content{
+    padding:40px 0px;
+    margin:0 auto;
+}
+
+#patrocinadores p{
+    margin:40px 0px;
+}
+
+#patrocinadores img{
+    width:100px;
+    margin:20px 10px;
+}
+
+#patrocinadores h2{
+    display:inline;
+}
+
+#patrocinadores > .row{
+    margin:0 auto;
+}
+
+/*footer begin*/
+footer{
+    text-align:center;
+    background-color:#446CB3;
+    padding:40px 0px;
+    color:white;
+}
+
+footer img{
+    width:200px;    
+}
+
+/*media para garantir que os backgrounds não irão quebrar*/
+
+@media (max-width:1350px){
+    /*Banner begin*/
+    #section-1, #homenageado, #contato{
+        background-size: 1350px;
+    }
+}
+
+@media (max-width:991px){
+    #contato .endereco{
+        border-left:0px;
+        border-top:1px solid #E9EAED;
+        padding-top:10px;
+    }
+
+    #patrocinadores .dividida{
+       border-bottom:1px solid #E9EAED;
+       border-right:0px solid #E9EAED;
+    }
+}
+
+@media (max-width:900px){
+    /*/*Banner begin*/
+    #section-1 h1{
+        font-size:100px;
+    }
+}
+
+@media (max-width:1000px){
+    #homenageado{
+        min-height:1400px;
+    }
+
+    #homenageado img{
+        width:100%;
+    }
+    
+}
+
+@media (max-width:1300px){
+    #sobre img{
+        width:200px;        
+    }
+}
+
+@media (max-width:740px){
+    #section-1 #datas{
+        width:70% !important;
+    }
+}
+
+@media (max-width:606px){
+    #section-1 a{
+        display:block !important;
+    }
+
+    #contato{
+        padding:40px 0px;
+    }
+
+    #contato .content{
+        width:100% !important;
+    }
+}
+
+@media (max-width:400px){
+
+    #sobre, #homenageado, #organizadores, .content{
+        width:100% !important;
+    }
+
+    #programacao .foto-apresentador{
+        float:none;
+        display:block !important;
+    }
+
+    #section-1 h1{
+        font-size:60px !important;
+    }    
+
+    h1{
+        font-size:30px !important;
+        width:100% !important;
+    }
+
+    #section-1 h3{
+        font-size:20px;
+        top:100px;
+    }
+
+    #section-1 h2{
+        font-size:30px;
+    }    
+    
+    #homenageado{
+        min-height:1510px;
+    }
+    
+    #contato .content{
+        width:100% !important;
+        padding:0px;
+    }    
+}
