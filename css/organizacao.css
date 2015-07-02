@@ -53,7 +53,7 @@ body{
 
 
 #section-1{
-	background: url("../images/background-section-1.jpg") fixed no-repeat center;
+	background: url("../images/background-section-4.png") fixed no-repeat center;
 	background-size: 100% ;
 	text-align: center;
 
@@ -62,6 +62,15 @@ body{
 
 #section-1 p{
 	font-style: italic;
+}
+
+#section-1 #logo-ifpb{
+  width:200px;
+}
+
+#section-1 .row{
+  margin:0 auto !important;
+  text-align: center;
 }
 
 #section-1 .logo{
@@ -80,7 +89,6 @@ body{
 
 #section-1 h1{
 	font-weight: bold;
-	font-size: 200px;
 	text-shadow: 0px 0px 10px black;
 	font-family: ubuntu;
 }
@@ -180,6 +188,260 @@ body{
 .carousel .element-9{
     background: url(../images/slide-9.jpg);
     background-size: 100%;
+}
+
+#section-3{
+    min-height:100%;
+    text-align: center;
+    background-color:#F5F5F5;
+    padding-bottom:100px;
+    background-size: 100%;
+}
+
+#section-3 .row{
+    margin:0 auto;
+    margin:0 auto;
+    text-align: center;
+}
+
+#section-3 .card{
+    margin:20px;
+    height: 200px;
+    background-color: white;
+}
+
+#section-3 .card-title{
+    width:70px;
+    height:70px;
+    background-color: #7EBA00;
+    margin:0 auto;
+    position:relative;
+    bottom:30px;
+}
+
+#section-3 .card-title:hover{
+    transform:scale(1.07);
+    background-color: red;
+    transition-duration:0.5s;
+}
+
+#section-3 .palestra{
+    background-image: url(../images/palestra-icon.png) !important;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section-3 .minicurso{
+    background-image: url(../images/curso-icon.png) !important;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section-3 .oficina{
+    background-image: url(../images/oficina-icon.png) !important;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section-3 .apresentacao{
+    background-image: url(../images/apresentacao-icon.png) !important;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section-3 img{
+    max-width: 70% !important;
+}
+
+#section-3 .btn-green{
+    background-color: #7EBA00;
+    color:white;
+    margin:20px;
+}
+
+#section-4{
+    min-height: 100%;
+    background: url(../images/background-section-4.png) no-repeat fixed;
+    background-size: 100%;
+    text-align: center;
+    padding-bottom: 50px
+}
+
+#section-4 h2{
+    color:white;
+}
+
+#section-4 img{
+    width:300px;
+    margin-top:100px;
+}
+
+#section-4 a{
+    border:1px solid white;
+    padding:20px;
+    border-radius: 5px;
+    color:white;
+}
+
+#section-4 .row{
+    width:100%;
+}
+
+#section-4 #logo-ifpb{
+    width:130px;
+}
+
+ /*Homenageado begin */
+
+#homenageado{
+    position:relative;
+    min-height:620px;
+	background: url("../images/background-homenageado.png") fixed no-repeat center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: right;
+    text-align:center;
+    background-color:#E3E3E3;
+}
+
+#homenageado h1{
+    text-align:center;
+    padding:10px;
+    width:250px;
+    margin:0 auto;
+    border-bottom:1px solid black;
+}
+
+#homenageado img{
+    margin:30px 0px;
+    text-align:center;
+}
+
+#homenageado .content{
+    width:70%;
+    margin:0 auto;
+    text-align:justify;
+}
+
+/*Organizadores begin*/
+
+#organizadores{
+    min-height:700px;
+    text-align:center;
+}
+
+#organizadores h1{
+    width:250px;
+    border-bottom:1px solid black;
+    padding:10px;
+    margin: 0 auto;
+}
+
+#organizadores .content{
+    width:70%;
+    margin:0 auto;
+}
+
+#organizadores .content > *{
+    margin:30px 0px;
+}
+
+#organizadores .content img{
+    width:150px;
+    height:150px;
+    border-radius:100%;
+}
+
+#organizadores .comissao h3{
+    margin-bottom:30px;
+}
+
+#organizadores .comissao{
+    border-top:1px solid #E9EAED;
+}
+
+/*Contato begin*/
+#contato{
+    min-height:650px;
+    padding:40px;
+    background: url("../images/background-contato.jpg") fixed no-repeat center;
+    background-size:100%;
+    background-color:#D7F9FF;
+}
+
+#contato h1{
+    width:250px;
+    border-bottom:1px solid black;
+    padding:10px;
+    margin: 0 auto;
+}
+
+#contato .content{
+    width:70%;
+    margin:0 auto;
+    border-radius:5px;
+    text-align:center;
+    background-color:white;
+    position:relative;
+    top:10%;
+    box-shadow:0px 0px 10px black;
+    padding:40px;
+}
+
+#contato .endereco{
+    border-left:1px solid #E9EAED;
+}
+
+#contato .endereco iframe{
+    width:100%;
+}
+
+#contato img{
+    width:20px;
+}
+
+/*Patrocinadores begin*/
+
+#patrocinadores{
+    text-align:center;
+    padding:40px 0px;
+}
+
+#patrocinadores h1{
+    width:250px;
+    border-bottom:1px solid black;
+    padding:10px 0px;
+    margin: 0 auto;
+}
+
+#patrocinadores .dividida{
+    border-right:1px solid #E9EAED;
+}
+
+#patrocinadores .content{
+    padding:40px 0px;
+    margin:0 auto;
+}
+
+#patrocinadores p{
+    margin:40px 0px;
+}
+
+#patrocinadores img{
+    width:100px;
+    margin:20px 10px;
+}
+
+#patrocinadores h2{
+    display:inline;
+}
+
+#patrocinadores > .row{
+    margin:0 auto;
 }
 
 /*footer begin*/
