@@ -134,6 +134,10 @@ footer img{
 		#section-1 #logo-ifpb{
 			max-width: 100px;
 		}
+
+		#section-2 .row{
+			width: 100%;
+		}
 }
 
 @media (max-width:900px){
@@ -147,32 +151,12 @@ footer img{
     }
 }
 
-@media (max-width:1000px){
-    #homenageado{
-        min-height:1400px;
-    }
-
-    #homenageado img{
-        width:100%;
-    }
-
-}
-
-@media (max-width:1300px){
-    #sobre img{
-        width:200px;
-    }
-}
-
 @media (max-width:606px){
 
-    #contato{
-        padding:40px 0px;
-    }
+	#section-1 #logo-ifpb{
+		max-width: 60px;
+	}
 
-    #contato .content{
-        width:100% !important;
-    }
 }
 
 @media (max-width:400px){
