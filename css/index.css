@@ -70,6 +70,7 @@ body{
 
 #section-1 .logo{
   width: 100%;
+	max-width: 641px;
 }
 
 #section-1 .infos{
