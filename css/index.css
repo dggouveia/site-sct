@@ -71,7 +71,7 @@ body{
 #section-1 .infos{
 	background-color:rgba(0,0,0,0.7);
 	padding:4%;
-	border-radius:5px;
+	border-radius:5px;	
 }
 
 #section-1 > *{
@@ -198,27 +198,14 @@ footer img{
 
 @media (max-width:1350px){
     /*Banner begin*/
-    #section-1, #section-4{
+    #section-1{
         background-size: 1350px;
-    }
-}
-
-@media (max-width:991px){
-    #contato .endereco{
-        border-left:0px;
-        border-top:1px solid #E9EAED;
-        padding-top:10px;
-    }
-
-    #patrocinadores .dividida{
-       border-bottom:1px solid #E9EAED;
-       border-right:0px solid #E9EAED;
     }
 }
 
 @media (max-width:900px){
     /*/*Banner begin*/
-    #section-1 h1, #section-4 h1{
+    #section-1 h1{
         font-size:100px;
     }
 
@@ -227,46 +214,15 @@ footer img{
     }
 }
 
-@media (max-width:1000px){
-    #homenageado{
-        min-height:1400px;
-    }
-
-    #homenageado img{
-        width:100%;
-    }
-
-}
-
-@media (max-width:1300px){
-    #sobre img{
-        width:200px;
-    }
-}
-
-@media (max-width:606px){
-
-    #contato{
-        padding:40px 0px;
-    }
-
-    #contato .content{
-        width:100% !important;
-    }
+@media (max-width:991px){
+	#section-1 .infos{
+		margin:50px;
+	}
 }
 
 @media (max-width:400px){
 
-    #sobre, #homenageado, #organizadores, .content{
-        width:100% !important;
-    }
-
-    #programacao .foto-apresentador{
-        float:none;
-        display:block !important;
-    }
-
-    #section-1 h1, #section-4 h1{
+    #section-1 h1{
         font-size:60px !important;
     }
 
@@ -275,21 +231,13 @@ footer img{
         width:100% !important;
     }
 
-    #section-1 h3, #section-4 h3{
+    #section-1 h3{
         font-size:20px;
         top:100px;
     }
 
-    #section-1 h2, #section-4 h2{
+    #section-1 h2{
         font-size:30px;
     }
 
-    #homenageado{
-        min-height:1510px;
-    }
-
-    #contato .content{
-        width:100% !important;
-        padding:0px;
-    }
 }
