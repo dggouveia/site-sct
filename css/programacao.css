@@ -211,6 +211,10 @@ footer img{
 	.card{
 		margin:20px 5px !important;
 	}
+
+	.card h3{
+		font-size: 16px !important;
+	}
 }
 
 @media (max-width:400px){
