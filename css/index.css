@@ -105,7 +105,17 @@ body{
 	width:300px !important;
 }
 
-/* Sobre begin */
+#section-1 #ape-logo{
+	width:50%;
+	max-width:300px;
+}
+
+.infos{
+	text-align: center;
+	background-color:#007b51;
+	padding:20px;
+	color:white;
+}
 
 #section-2{
     position:relative;

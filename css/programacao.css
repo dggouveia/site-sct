@@ -68,7 +68,12 @@ body{
 }
 
 #section-1 .logo{
-  width: 50%;
+  width: 90%;
+	max-width:400px;
+}
+
+#section-1 #ape-logo{
+	max-width: 200px;
 }
 
 #section-1 .infos{
