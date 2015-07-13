@@ -127,6 +127,10 @@ body{
     background-color: white;
 }
 
+#section-2 .card .btn{
+	padding:10px;
+}
+
 #section-2 .card-title{
     width:70px;
     height:70px;
